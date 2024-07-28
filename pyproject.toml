@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "codilify"
+version = "0.0.1"
+authors = [
+  { name="amir h bakhtiary davijani", email="amir.h.bakhtiary@gmail.com" },
+]
+description = "magic for connecting notebooks to production."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/bakhtiary/codilify"
+Issues = "https://github.com/bakhtiary/codilify/issues"
