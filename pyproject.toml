@@ -23,3 +23,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/bakhtiary/codilify"
 Issues = "https://github.com/bakhtiary/codilify/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/codilify"]
